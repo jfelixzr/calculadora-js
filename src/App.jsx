@@ -2,10 +2,6 @@ import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles/App.css';
 
-
-
-import React from 'react'
-
 const App = () => {
   const [result, SetResult]=useState("");
   const handleClick=(e) =>{
